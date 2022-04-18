@@ -1,0 +1,143 @@
+h2{
+  color: #1e45b3;
+}
+.MuiDialogTitle-root{
+  padding-bottom: 0px;
+}
+.MuiTextField-root label{
+  transform: translate(-6px, -24px) scale(0.75);
+  background: #fff;
+  width: auto;
+  color: #585858;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0px 10px;
+}
+.btn-upload{
+  z-index: 1;
+  background: #000;
+  width: 115px;
+  margin: 6px 0px;
+}
+
+.div-options{
+  flex-direction: initial !important;
+}
+.MuiButton-text.btn-cancel,
+.MuiButton-text.btn-close{
+  color: #666;
+  background-color: #e1e5ec;
+  text-transform: none;
+}
+.MuiButton-text.btn-cancel:hover,
+.MuiButton-text.btn-close:hover{
+  background-color: #dee0e4;
+}
+.MuiButton-text.btn-save{
+  background-color: #0fad0f;
+  color: #fff;
+  text-transform: none;
+}
+.MuiButton-text.btn-save:hover{
+  background-color: #119711;
+}
+.MuiAlert-outlinedSuccess .MuiAlert-icon{
+  color: #fff !important; 
+}
+.MuiAlert-outlinedSuccess {
+  color: #fff !important;
+  background: #4caf50 !important;
+}
+.dialog-delete #form-dialog-title{
+  color: #000;
+  padding-bottom: 0px !important;
+  font-size: 1.6rem !important;
+ 
+}
+.dialog-delete p{
+  font-size: 1.05rem;
+  margin: 0px;
+}
+.MuiDialogActions-spacing{
+  border-top: 1px solid #ddd;
+}
+.MuiDialogContent-root{
+  margin: 10px 0px 20px 0px;
+}
+
+.MuiTable-root tbody tr:nth-child(even) {background: #FFF}
+         
+.MuiTable-root tbody tr:nth-child(odd) {background: #fbfcfd}    
+
+table.MuiTable-root,
+table.MuiTable-root td,
+table.MuiTable-root th{
+  border: 1px solid #e7ecf1;
+}
+tfoot td{
+  border: 0px !important;
+}
+.MTableToolbar-title-26 {
+  overflow: hidden;
+  position: relative;
+  left: -21px;
+  color: #000;
+}
+header{
+  background: #fff !important;
+}
+.menu-color .MuiDrawer-paper{
+  background-color: #00bdb6;
+  color: #fff;
+}
+.menu-color .MuiListItemIcon-root,
+.menu-color .MuiSvgIcon-root{
+  color: #fff;
+}
+.ck-editor__editable{
+  border: 1px solid #ddd !important;
+  border-top: 0px !important;
+  min-height: 100px;
+}
+label{
+  color: #000 !important;
+  margin-bottom: 5px;
+  font-size: 18px;
+  font-weight: 500 !important;
+}
+.MuiFormControlLabel-label {
+  color: #646777;
+}
+label + .MuiInput-formControl {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  min-height: 55px;
+  margin-bottom: 11px;
+  margin-top: 0px !important;
+}
+.MuiInput-underline::before {
+  border: 0px;
+}
+.MuiFormControl-root label.label-select{
+  background: #fff;
+  font-weight: 500;
+  font-size: 16px;
+  z-index: 1;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-bottom: 8px;
+}
+.MuiList-padding {
+  padding-top: 29px;
+  padding-bottom: 9px;
+}
+.MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  margin-bottom: 23px;
+  margin-top: 0px;
+}
+.ck.ck-editor__editable:not(.ck-editor__nested-editable) {
+  height: 250px
+}
+.MuiOutlinedInput-root:hover .MuiOutlinedInput-notchedOutline {
+  border-color: #00bdb6;
+}
